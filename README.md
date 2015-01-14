@@ -14,12 +14,12 @@
 
 This repository contains solutions to homework problems assigned in Math 5080/5090 from the text, Bain and Engelhardt's Introduction to Probability and Mathematical Statistics.
 
-To view solutions, open the PDF files.
+To view solutions, open the PDF file.
 
 To make contributions, you will need to add or modify LaTeX (*.tex) files. There is a master LaTeX file called Solutions.tex.
 There is also a separate file for each homework problem. Solutions.tex calls each of the separate homework problem files to compile a single document will all the solutions. Thus if you want to fix or improve the solution to problem 5 from chapter 8, you will edit 05.08.tex and then compile Solutions.tex.
 
-LaTeX files and Solutions.pdf will be tracked with git.  Please do not commit other stuff, e.g. *.log files.
+LaTeX files and Solutions.pdf will be tracked with Git.  Please do not commit other stuff, e.g. *.log files.
 
 #### Missing solutions
 
@@ -32,19 +32,22 @@ Missing solutions (as of 12-7):
 
 ### Adding and modifying files
 
-A Git client and a GitHub account are both required to contribute homework solutions. See [this video](http://youtu.be/ezxRcdJ8glM) for a step-by-step guide to setting up a GitHub account.
+[Git](http://en.wikipedia.org/wiki/Git_%28software%29) revision control software and a GitHub account are both required to contribute homework solutions. See [this video](http://youtu.be/ezxRcdJ8glM) for a step-by-step guide to setting up a GitHub account.
 
-Git can be used from the command line and from GUI-based applications.
+Git clients can be used from the command line and from GUI-based applications.
 
 For the uninitiated, GitHub has easy to use GUI clients for [Windows](https://windows.github.com) and [Mac OS X](https://mac.github.com) that will make interacting with GitHub repositories much easier.
 
-A [fork and pull collaboration model](https://help.github.com/articles/using-pull-requests) will be used to add or modify the LaTeX files. 
+A [fork and pull collaboration model](https://help.github.com/articles/using-pull-requests) is used to add or modify the LaTeX files. 
 
 #### Fork
 
-To contribute your homework solution, start by creating your own copy of this repository. This process is called [forking a repository](https://help.github.com/articles/fork-a-repo). Add new LaTeX files for missing solutions or modify an existing file to fix or improve a previously contributed solution as described above.
+To contribute your homework solution, start by copying or [forking](https://help.github.com/articles/fork-a-repo) this repository.
+
+Add new LaTeX files for missing solutions, or modify an existing file to fix or improve a previously contributed solution as described above to your copy.
 
 #### Pull
 
+Create a [pull request](https://help.github.com/articles/creating-a-pull-request) to propose that the changes made to your repository be merged into this repository.
 
 ### LaTeX documents
