@@ -51,3 +51,12 @@ Add new LaTeX files for missing solutions, or modify an existing file to fix or 
 Create a [pull request](https://help.github.com/articles/creating-a-pull-request) to propose that the changes made to your repository be merged into this repository.
 
 ### LaTeX documents
+
+The homework solution files are formatted using the [LaTex typesetting system](http://latex-project.org/intro.html) and used to generate the solutions PDF files.
+
+Command line and GUI tools can be used to generate PDF files from LaTex.
+
+For Windows, [MiKTeX](http://miktex.org) is an easy to use tool.
+For Mac OS X, [TeXworks](http://www.tug.org/texworks) is also an easy to use tool.
+
+A useful resource is the [LaTeX wiki book chapter on formatting math](http://en.wikibooks.org/wiki/LaTeX/Mathematics).
