@@ -4,9 +4,9 @@
 
 - [5080-5090 Solutions](#user-content-homework-solutions)
   - [Summary](#user-content-summary)
-    - [Missing solutions](#user-content- missing)
-  - [Git](#user-content-git)
-  - [LaTeX](#user-content-latex)
+    - [Missing solutions](#user-content-missing)
+  - [Using Git and GitHub](#user-content-git)
+  - [LaTeX documents](#user-content-latex)
 
 ### Summary
 
