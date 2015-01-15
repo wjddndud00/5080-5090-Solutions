@@ -7,6 +7,7 @@
     - [Missing solutions](#user-content-missing-solutions)
   - [Adding and modifying files](#user-content-adding-and-modifying-files)
     - [Fork](#user-content-fork)
+    - [Updating the repository](#user-content-updating-the-repository)
     - [Pull](#user-content-pull)
   - [LaTeX documents](#user-content-latex-documents)
 
@@ -42,9 +43,13 @@ A [fork and pull collaboration model](https://help.github.com/articles/using-pul
 
 #### Fork
 
-To contribute your homework solution, start by copying or [forking](https://help.github.com/articles/fork-a-repo) this repository.
+To contribute your homework solution, start by copying or [forking](https://help.github.com/articles/fork-a-repo) this repository. Once you've copied the repository, download a local copy using the `git clone` command on the command line, or clone in the GUI app.
 
 Add new LaTeX files for missing solutions, or modify an existing file to fix or improve a previously contributed solution as described above to your copy.
+
+#### Updating the repository
+
+Use the Git commands `add` and `commit` to save your work. Use the Git command `push` to update your remote repository on GitHub.
 
 #### Pull
 
