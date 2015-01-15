@@ -40,6 +40,8 @@ Git clients can be used from the command line and from GUI-based applications.
 
 For the uninitiated, GitHub has easy to use GUI clients for [Windows](https://windows.github.com) and [Mac OS X](https://mac.github.com) that will make interacting with GitHub repositories much easier. There are other good GUI clients available, such as [SourceTree](http://www.sourcetreeapp.com).
 
+Git repositories are organized into [branches](http://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is), which keep track of the history and state of files that make up the repository. Generally, the first branch created in a repository is called **master**, and is generally considered to be the production branch. Read more about branches in this [tutorial](https://www.atlassian.com/git/tutorials/using-branches).
+
 A [fork and pull collaboration model](https://help.github.com/articles/using-pull-requests) is used to add or modify the LaTeX files. 
 
 #### Fork
@@ -50,11 +52,11 @@ Add new LaTeX files for missing solutions, or modify an existing file to fix or 
 
 #### Updating the repository
 
-Use the Git commands `add` and `commit` to [save your work](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) either on the command line, or in a GUI client. Use the Git command `push`, again either on the command line or in a GUI, to update your remote repository on GitHub. [This tutorial](http://robert-reiz.com/2011/10/01/git-add-commit-push-pull/) is a good summary of all three commands.
+Use the Git commands `add` and `commit` to [save your work](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) either on the command line, or in a GUI client. Use the Git command `push`, again either on the command line or in a GUI, to update your remote repository on GitHub. [This tutorial](http://robert-reiz.com/2011/10/01/git-add-commit-push-pull/) is a good summary of all three commands. This [chapter in the Git book](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) goes into more detail.
 
 #### Syncing the repository
 
-If working from the command line, or using a GUI client that does not support syncing from multiple remote repositories (the GitHub GUI clients do not), it will be necessary to sync your repository with this repository manually when this repository is updated. The commands are (assuming working from the default master branch):
+If working from the command line, or using a GUI client that does not support syncing from multiple remote repositories (the GitHub GUI clients do not), it will be necessary to sync your repository with this repository manually when this repository is updated. The commands are:
 
     git remote add upstream https://github.com/RonReeder/5080-5090-Solutions
     git fetch upstream
