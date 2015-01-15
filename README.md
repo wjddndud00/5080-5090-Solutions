@@ -38,7 +38,7 @@ Missing solutions (as of 12-7):
 
 Git clients can be used from the command line and from GUI-based applications.
 
-For the uninitiated, GitHub has easy to use GUI clients for [Windows](https://windows.github.com) and [Mac OS X](https://mac.github.com) that will make interacting with GitHub repositories much easier. There are other good GUI clients available, such as [SourceTree](http://www.sourcetreeapp.com).
+For the uninitiated, GitHub has easy to use GUI clients for [Windows](https://windows.github.com) and [Mac OS X](https://mac.github.com) that will make interacting with GitHub repositories much easier. There are other good GUI clients available, such as [SourceTree](http://www.sourcetreeapp.com). Git packages are widely available for Linux.
 
 Git repositories are organized into [branches](http://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is), which keep track of the history and state of files that make up the repository. Generally, the first branch created in a repository is called **master**, and is generally considered to be the production branch. Read more about branches in this [tutorial](https://www.atlassian.com/git/tutorials/using-branches).
 
@@ -70,11 +70,9 @@ Create a [pull request](https://help.github.com/articles/creating-a-pull-request
 
 ### LaTeX documents
 
-The homework solution files are formatted using the [LaTex typesetting system](http://latex-project.org/intro.html) and used to generate the solutions PDF files.
+The homework solution files are formatted using the [LaTeX typesetting system](http://latex-project.org/intro.html) and used to generate the solution PDF file using LaTeX processing tools, either on the command line or in GUI applications. The [LaTeX wiki book](http://en.wikibooks.org/wiki/LaTeX/Basics) has a more detailed explanation of how LaTeX files are transformed into PDF files. This [tutorial](http://www.andy-roberts.net/writing/latex) is also a good introduction.
 
-Command line and GUI tools can be used to generate PDF files from LaTex.
+For Windows, [MiKTeX](http://miktex.org) is an easy to use GUI-based tool. For Mac OS X, [TeXworks](http://www.tug.org/texworks) is also a good GUI-based tool. LaTeX packages and utilties are widely available for Linux.
 
-For Windows, [MiKTeX](http://miktex.org) is an easy to use tool.
-For Mac OS X, [TeXworks](http://www.tug.org/texworks) is also an easy to use tool.
+Math symbols and formulas can be inline with text or displayed separately. A very useful resource is the [LaTeX wiki book chapter on formatting math](http://en.wikibooks.org/wiki/LaTeX/Mathematics). See also [this comprehensive list](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex) of LaTeX resources.
 
-A useful resource is the [LaTeX wiki book chapter on formatting math](http://en.wikibooks.org/wiki/LaTeX/Mathematics).
