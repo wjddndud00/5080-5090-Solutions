@@ -76,5 +76,5 @@ For Windows, [MiKTeX](http://miktex.org) is an easy to use GUI-based tool. For M
 
 Math symbols and formulas can be inline with text or displayed separately. Formatting is done through special enviroments containing the typesetting symbols and commands. This short [tutorial (PDF)](http://www.mecmath.net/latex-tutorial.pdf) demonstrates the use of frequently used math symbols and environments. This short [LaTeX course](http://www.math.uiuc.edu/~hildebr/tex/course) may also be helpful.
 
-A very useful resource is the [LaTeX wiki book chapter on formatting math](http://en.wikibooks.org/wiki/LaTeX/Mathematics). See also [this comprehensive list](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex) of LaTeX resources.
+A very useful resource is the [LaTeX wiki book chapter on formatting math](http://en.wikibooks.org/wiki/LaTeX/Mathematics). See also this [comprehensive list](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex) of LaTeX resources.
 
