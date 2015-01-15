@@ -52,7 +52,7 @@ Add new LaTeX files for missing solutions, or modify an existing file to fix or 
 
 #### Updating the repository
 
-Use the Git commands `add` and `commit` to [save your work](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) either on the command line, or in a GUI client. Use the Git command `push`, again either on the command line or in a GUI, to update your remote repository on GitHub. [This tutorial](http://robert-reiz.com/2011/10/01/git-add-commit-push-pull/) is a good summary of all three commands. This [chapter in the Git book](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) goes into more detail.
+Use the Git commands `add` and `commit` to [save your work](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) either on the command line, or in a GUI client. Use the Git command `push`, again either on the command line or in a GUI, to update your remote repository on GitHub. This [tutorial](http://robert-reiz.com/2011/10/01/git-add-commit-push-pull/) is a good summary of all three commands. This [chapter](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) in the Git book goes into more detail.
 
 #### Syncing the repository
 
@@ -74,5 +74,7 @@ The homework solution files are formatted using the [LaTeX typesetting system](h
 
 For Windows, [MiKTeX](http://miktex.org) is an easy to use GUI-based tool. For Mac OS X, [TeXworks](http://www.tug.org/texworks) is also a good GUI-based tool. LaTeX packages and utilties are widely available for Linux.
 
-Math symbols and formulas can be inline with text or displayed separately. A very useful resource is the [LaTeX wiki book chapter on formatting math](http://en.wikibooks.org/wiki/LaTeX/Mathematics). See also [this comprehensive list](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex) of LaTeX resources.
+Math symbols and formulas can be inline with text or displayed separately. Formatting is done through special enviroments containing the typesetting symbols and commands. This short [tutorial (PDF)](http://www.mecmath.net/latex-tutorial.pdf) demonstrates the use of frequently used math symbols and environments. This short [LaTeX course](http://www.math.uiuc.edu/~hildebr/tex/course) may also be helpful.
+
+A very useful resource is the [LaTeX wiki book chapter on formatting math](http://en.wikibooks.org/wiki/LaTeX/Mathematics). See also [this comprehensive list](http://www.howtotex.com/general/12-great-resources-for-getting-started-with-latex) of LaTeX resources.
 
