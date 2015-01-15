@@ -50,7 +50,7 @@ Add new LaTeX files for missing solutions, or modify an existing file to fix or 
 
 #### Updating the repository
 
-Use the Git commands `add` and `commit` to [save your work](https://www.atlassian.com/git/tutorials/saving-changes/git-commit). Use the Git command `push` to update your remote repository on GitHub. [This tutorial](http://robert-reiz.com/2011/10/01/git-add-commit-push-pull/) is a good summary of all three commands. All three can be done in a GUI app.
+Use the Git commands `add` and `commit` to [save your work](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) either on the command line, or in a GUI client. Use the Git command `push`, again either on the command line or in a GUI, to update your remote repository on GitHub. [This tutorial](http://robert-reiz.com/2011/10/01/git-add-commit-push-pull/) is a good summary of all three commands.
 
 #### Syncing the repository
 
