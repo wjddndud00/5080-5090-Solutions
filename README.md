@@ -72,7 +72,7 @@ Create a [pull request](https://help.github.com/articles/creating-a-pull-request
 
 The homework solution files are formatted using the [LaTeX typesetting system](http://latex-project.org/intro.html) and used to generate the solution PDF file using LaTeX processing tools, either on the command line or in GUI applications. The [LaTeX wiki book](http://en.wikibooks.org/wiki/LaTeX/Basics) has a more detailed explanation of how LaTeX files are transformed into PDF files. This [tutorial](http://www.andy-roberts.net/writing/latex) is also a good introduction.
 
-For Windows, [MiKTeX](http://miktex.org) is an easy to use GUI-based tool. For Mac OS X, [TeXworks](http://www.tug.org/texworks) is also a good GUI-based tool. LaTeX packages and utilties are widely available for Linux.
+For Windows, [MiKTeX](http://miktex.org) is an easy to use GUI-based tool. For Mac OS X, [TeXworks](http://www.tug.org/texworks) is also a good GUI-based tool. LaTeX packages and utilties such as `pdflatex` are widely available for Linux. Here is a short `pdflatex`  [tutorial](http://www.thelinuxdaily.com/2011/08/how-to-build-a-tex-file-to-pdf-on-linux/).
 
 Math symbols and formulas can be inline with text or displayed separately. Formatting is done through special enviroments containing the typesetting symbols and commands. This short [tutorial (PDF)](http://www.mecmath.net/latex-tutorial.pdf) demonstrates the use of frequently used math symbols and environments. This short [LaTeX course](http://www.math.uiuc.edu/~hildebr/tex/course) may also be helpful.
 
