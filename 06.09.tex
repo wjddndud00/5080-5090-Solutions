@@ -1,0 +1,99 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{amssymb, amsmath}
+\usepackage[hmargin=1in,vmargin=1in]{geometry}
+\begin{document}
+\textbf{06.09} Rework Exercise 2 using transformation methods. 
+\vspace{0.25in}\\
+Let $X$ be a random variable that is uniformly distributed, *$X \sim$ UNIF(0, 1). Use the transformation
+method to determine the pdf of each of the following:\\
+\vspace{0.25in}\\ 
+(a) $Y = X^{1/4}$ \\
+
+$y = x^{1/4}$\par
+$x(y) = y^{1/4}$
+
+$f_Y(y) = f_X(x(y)) \bigg| \dfrac{d}{dy} x(y) \bigg|
+= f_X(y^{1/4})) \bigg| \dfrac{d}{dy} x(y) \bigg|
+=\begin{cases}
+	(1) \Big| 4y^3 \Big| & \text{,	if }0<y^4<1\\
+	0 & \text{,		otherwise}
+\end{cases}\
+=\begin{cases}
+	4y^3  & \text{,	if }0<y<1 \\
+	0 & \text{,		otherwise}
+\end{cases}
+$\\
+\vspace{0.25in}\\
+(b) $W = e^{-x}$\\
+
+$w = e^{-x}$\par 
+$x(w) = -ln(w)$
+
+$f_W(w) = f_X(x(w)) \bigg| \dfrac{d}{dw} x(w) \bigg|
+= f_X(-ln(w)) \bigg| \dfrac{d}{dw} x(w) \bigg|
+=\begin{cases}
+	(1) \Big| \frac{-1}{w} \Big|  & \text{,	if } 0<-ln(w)<1 \\
+	0 & \text{,		otherwise}
+\end{cases} $\\ 
+\vspace{1mm}\\
+\par \hspace{3.55in}
+$=\begin{cases}
+	\frac{1}{w}  & \text{,	if } e^{-1}<w<1 \\
+	0 & \text{,		otherwise}
+\end{cases}
+$\\
+\vspace{0.25in}\\
+(c) $Z$ = $1-e^{-x}$\\
+
+$z = 1-e^{-x}$\par
+$x(z) = -ln(1-z)$
+
+$f_Z(z) = f_X(x(z)) \bigg| \dfrac{d}{dz} x(z) \bigg|
+= f_X(-ln(1-z)) \bigg| \dfrac{d}{dz} x(z) \bigg|
+=\begin{cases}
+	(1) \Big| \frac{1}{1-z} \Big|  & \text{,	if } 0<-ln(1-z)<1 \\
+	0 & \text{,		otherwise}
+\end{cases}$\\
+\vspace{1mm}\\
+\par \hspace{3.55in}
+$=\begin{cases}
+	\frac{1}{1-z}  & \text{,	if } 0<z<-e^{-1}\\
+	0 & \text{,		otherwise}
+\end{cases}
+$\\
+\vspace{0.25in}\\
+(d) $U = X(1 - X)$\\
+
+$u = x(1-x)$ \par
+**$ x(u) = \frac{1}{2} \pm \sqrt{\frac{1}{4}-u}$\\
+\vspace{0.05in}\\
+Skipped in homework since this is not a one-to-one transformation. \\
+\vspace{0.25in}\\
+*$X \sim$ UNIF(0, 1)\\
+\vspace{1mm}\\
+$f_X(x) =
+\begin{cases}
+	\frac{1}{b-a} & \text{,	if } x \in [a,b]\\
+	0 & \text{,		otherwise}
+\end{cases}\
+=\begin{cases}
+	\frac{1}{1-0} & \text{,	if } x \in [0,1]\\
+	0 & \text{,		otherwise}
+\end{cases}
+=\begin{cases}
+	1 & \text{,	if } x \in [0,1]\\
+	0 & \text{,		otherwise}
+\end{cases}
+$\\
+\vspace{0.25in}\\
+**Complete the square to solve for u. \\
+$x = u(1-u)\\
+\Rightarrow x = u-u^2\\
+\Rightarrow -x = u^2 - u\\
+\Rightarrow -x + \frac{1}{4} = u^2 - u + \frac{1}{4}\\  
+\Rightarrow -x + \frac{1}{4} = (u - \frac{1}{2})^2\\
+\Rightarrow \sqrt{\frac{1}{4}-x} = u - \frac{1}{2}\\
+\Rightarrow u = \frac{1}{2} \pm \sqrt{\frac{1}{4}-x}
+$\\
+
+\end{document}
