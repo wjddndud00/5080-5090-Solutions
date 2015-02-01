@@ -25,12 +25,21 @@ LaTeX files and Solutions.pdf will be tracked with Git.  Please do not commit ot
 
 #### Missing solutions
 
-Missing solutions (as of 12-7):
+Missing solutions (as of 12-7-2014):
 * Chapter 6: 17, 31
 * Chapter 7: 5, 9, 10, 15, 17, 18, 19, 20, 22, 27, 28
 * Chapter 8: 24, 26
 * Chapter 9: 13, 19, 23, 24, 26, 31, 32, 33, 35, 36, 38, 39
 * Chapter 10: 1, 5, 8, 10, 11, 12, 18, 20, 22, 25, 30, 31
+
+#### Incorrect Solutions
+
+Some of the incorrect solutions (as of 1-31-2015):
+* 6.1b The correct density function is obtained but the work is sketchy.  W and w are used interchangably and the cdf needs to be defined as a piecewise function.  Currently there is no consideration of what the cdf would be for negative arguments. An extra d/dw appears and should be removed.
+* 6.1c X and x are used interchangably.  Z and z are used interchangably.  The inequality in the solution should be strict.
+* 6.1d Density function is not obtained and the work that is done is not done carefully.
+* 6.2a The work is not carefully done.
+* 6.2b z, w, and W are used interchangably.  Negative arguments to the cdf are not considered.  An extra d/dw and and extra =-1/w need to be removed.
 
 ### Adding and modifying files
 
