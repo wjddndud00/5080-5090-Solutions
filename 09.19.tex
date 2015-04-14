@@ -1,1 +1,6 @@
-{ \bf 09.19 }
+{\bf 09.19}\\
+Let $U_{i}$ be UNIF(0,1), so $X_{i}$ = $(2U_{i}-1)\theta$ is UNIF($-\theta,\theta$).\\ 
+Now $U_{n:n}$ has $F(u) = u^n$ so $f(u) = nu^{n-1}$ and $E[U_{n:n}] = \int_{0}^{1}nu^{n}du = n/(n+1)$.\\ 
+Also, $U_{1:n}$ has $F(u) = 1-(1-u)^n$, so $f(u) = n(1-u)^{n-1}$ and $E[U_{1:n}] = \int_{0}^{1}nu(1-u)^{n-1}du = 1/(n+1)$.\\
+Therefore, $E[X_{n:n}] = (2n/(n+1) - 1)\theta$ and $E[X_{1:n}] = (2/(n+1) - 1)\theta$, and\\
+$$E[c(X_{n:n} - X_{1:n})] = c[\frac{2n}{n+1} - 1 - (\frac{2}{n+1}-1)]\theta = 2c(\frac{n-1}{n+1})\theta = \theta$$ if $c = \frac{n+1}{2(n-1)}$.\\
